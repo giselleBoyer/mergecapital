@@ -1,0 +1,174 @@
+/*
+ Theme Name:     stward
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+.et_fullscreen_slider .et_pb_slides,
+.et_fullscreen_slider .et_pb_slide,
+.et_fullscreen_slider .et_pb_container {
+    min-height: 100% !important;
+    height: 100% !important;
+}
+
+/***Switch column order on mobile***/
+@media only screen and ( max-width: 980px ) {
+.flip { 
+display: -webkit-flex;
+-webkit-flex-direction: column-reverse;
+display: flex;
+flex-direction: column-reverse !important;}
+}
+/***end switch column on mobile***/
+
+
+.desaturate {
+  filter: grayscale(100%);
+  transition: .2s ease-in;
+  }
+  .desaturate:hover {
+    filter: grayscale(0%);
+  }
+
+
+#main-footer{
+    display: none !important;
+  }
+
+#slider_47628 .owl-item{
+	max-width:250px !important;
+}
+
+#logo{
+	max-height: 100% !important;
+}
+
+.et_pb_side_nav{
+	opacity: 0 !important;
+}
+
+#container {
+      position: relative;
+    background-image: url(http://stward.flywheelsites.com/wp-content/uploads/2019/07/mapa-trading.jpg);
+    background-repeat: no-repeat;
+    background-color: #A8Cbeb;
+    height: 100%;
+    background-size: cover;
+    top: 0;
+    background-position: center;
+    bottom: 0;
+}
+
+.pulse {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #d4504b;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+	background-image: url(http://stward.flywheelsites.com/wp-content/uploads/2019/07/logo-mapa.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #1c3e5f;
+    z-index: 10;
+    position: absolute;
+
+}
+
+.pulse-1{top: 34%; left: 59%;}
+.pulse-2{top: 39%; left: 54%;}
+.pulse-3{top: 28%; left: 48%;}
+.pulse-4{top: 17%; left: 55%;}
+.pulse-5{top: 23%; left: 52%;}
+.dot-1{top: 29%; left: 56%;}
+.dot-2{top: 34%; left: 51%;}
+.dot-3{top: 23%; left: 45%;}
+.dot-4{top: 12%; left: 52%;}
+.dot-5{top: 18%; left: 49%;}
+
+.dot {
+  border: 15px solid #d4504b;
+    background: transparent;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    -webkit-animation: latido 2s ease-out;
+    -moz-animation: latido 2s ease-out;
+    animation: latido 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+@-moz-keyframes latido {
+ 0% {
+    -moz-transform: scale(0);
+    opacity: 0.0;
+ }
+ 25% {
+    -moz-transform: scale(0);
+    opacity: 0.1;
+ }
+ 50% {
+    -moz-transform: scale(0.1);
+    opacity: 0.3;
+ }
+ 75% {
+    -moz-transform: scale(0.5);
+    opacity: 0.5;
+ }
+ 100% {
+    -moz-transform: scale(1);
+    opacity: 0.0;
+ }
+}
+
+@-webkit-keyframes "latido" {
+ 0% {
+    -webkit-transform: scale(0);
+    opacity: 0.0;
+ }
+ 25% {
+    -webkit-transform: scale(0);
+    opacity: 0.1;
+ }
+ 50% {
+    -webkit-transform: scale(0.1);
+    opacity: 0.3;
+ }
+ 75% {
+    -webkit-transform: scale(0.5);
+    opacity: 0.5;
+ }
+ 100% {
+    -webkit-transform: scale(1);
+    opacity: 0.0;
+ }
+}
+.et_pb_code_inner{
+	height:100%;
+}
+
+span.et_pb_scroll_top.et-pb-icon{
+   right: 15px;
+   border-radius: 20px;
+   background-color: #e7434499;
+}
+
+footer#main-footer{
+	display: none;
+}
+ 
